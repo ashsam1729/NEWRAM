@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mahe.userlogin">
+    package="com.example.mahe.smartwatch30">
 
     <application
         android:allowBackup="true"
@@ -16,8 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".REGISTER" />
-        <activity android:name=".AFTERLOGIN"></activity>
+        <activity android:name=".location" />
+        <activity android:name=".HEARTBEAT" />
+        <activity android:name=".someswitch" />
+        <activity android:name=".settings" />
+        <activity android:name=".password" />
+        <activity android:name=".newprofile" />
+        <activity android:name=".time" />
+        <activity android:name=".storedfiles"></activity>
     </application>
 
 </manifest>
